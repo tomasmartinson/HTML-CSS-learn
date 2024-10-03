@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            height: 100vh;}
+
+        .general-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;}
+
+        .kvadrat {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            transition: 4s;}
+
+        .kvadrat:hover {
+            border-radius: 50%;
+            background-color: darkblue;
+            border: 4px dotted white;
+            transition: 4s;
+            transform: scale(2);}
+
+    </style>
+</head>
+<body>
+<div class="general-box">
+    <div class="kvadrat"></div>
+    <div class="kvadrat"></div>
+    <div class="kvadrat"></div>
+    <div class="kvadrat"></div>
+    <div class="kvadrat"></div>
+    <div class="kvadrat"></div>
+</div>
+</body>
+</html>
