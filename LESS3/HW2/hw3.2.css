@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;}
+
+.headersect {
+    background-color: #f39bc2;}
+
+.footersect {
+    background-color: black;
+    color: white;}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;}
+
+p {
+    font-size: 2em;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;}
