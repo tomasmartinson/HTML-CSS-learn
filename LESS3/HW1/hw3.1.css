@@ -25,7 +25,8 @@ main div div {
     align-items: center;
     font-size: 32px;
     border-radius: 6px;}
-footer div{
+
+footer div {
     background-color: #2c65cc;
     height: 70vh;
     box-sizing: border-box;
@@ -34,5 +35,4 @@ footer div{
     align-items: center;
     margin-top: 15px;
     font-size: 25px;
-    border-radius: 6px;
-}
+    border-radius: 6px;}
