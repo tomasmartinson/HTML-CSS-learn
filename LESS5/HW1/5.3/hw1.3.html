@@ -17,9 +17,20 @@
            height: 175px;
            animation: casper 10s linear infinite;}
        @keyframes casper {
-           0%{transform: translateX(-500px);}
-           50%{ transform: rotate(360deg);}
-           100%{transform: translateX(500px);} }
+           0% {
+               transform: translateX(-800px)
+           }
+           40% {
+               transform: translateX(0px)
+           }
+           50% {
+               transform: translateX(0px) rotate(-360deg);
+           }
+           100% {
+               transform: translateX(800px) rotateY(360deg)
+           }
+
+       }
 
    </style>
 </head>
