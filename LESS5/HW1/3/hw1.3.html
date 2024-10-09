@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+   <style>
+       div{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           width: 100vw;
+           height: 100vh;}
+       img {
+           width:350px;
+           height: 175px;
+           animation: casper 10s linear infinite;}
+       @keyframes casper {
+           0%{transform: translateX(-500px);}
+           50%{ transform: rotate(360deg);}
+           100%{transform: translateX(500px);} }
+
+   </style>
+</head>
+<body>
+        <div>
+        <img src="img/kasper-png.png" alt="casper">
+        </div>
+</body>
+</html>
